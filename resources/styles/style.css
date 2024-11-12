@@ -1,19 +1,24 @@
 :root{
-    --switch-color: 3px dotted red;
+    --switch-color: 3px dotted transparent;
+    font-family: "Afacad Flux";
 }
 
 body{
     border: var(--switch-color);
     padding-left: 30px;
     padding-right: 30px;
-    
 }
+
 h1{
     border: var(--switch-color);
+    text-align: center;
 }
 
 h2{
     border: var(--switch-color);
+    text-align: center;
+    font-style: italic;
+    color: #4C5454;
 }
 
 img{
@@ -32,6 +37,7 @@ img{
 }
 
 p{
+    font-size: larger;
     border: var(--switch-color);
     text-align: justify;
     width:100%;
